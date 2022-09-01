@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            overflow-x: hidden;
+            margin-bottom: 2px;
+           
+        }
+
+
+        .First_name {
+            font-size: 45px;
+            position: relative;
+            top: 30px;
+        }
+
+        .Second_name {
+            font-size: 30px;
+            position: relative;
+            top: 30px;
+        }
+        .Motto{
+            position: relative;
+            top: 20px;
+        }
+
+        #search {
+            width: 250px;
+            position: relative;
+            bottom: 60px;
+            left: 600px;
+            
+        }
+
+        a {
+            margin: 7px;
+        }
+
+        .Intro {
+            position: relative;
+            left: 350px;
+            display: flex;
+            justify-content: left;
+
+
+        }
+
+        .btn {
+            position: relative;
+            left: 20px;
+            top: 10px;
+            border: 2px solid white;
+            height: 40px;
+        }
+
+        .Inside_Vital {
+            position: relative;
+            right: 12px;
+            opacity: 0.8;
+        }
+
+        .Vital_Intro {
+            position: relative;
+            bottom: 400px;
+            left: 200px;
+            font-size: 30px;
+
+        }
+
+        .btn {
+            width: 200px;
+
+        }
+
+        .play_button {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            bottom: 670px;
+            left: 120px;
+            opacity: 0.70;
+        }
+
+        .arrow {
+            border: solid whitesmoke;
+            border-width: 0px 6px 6px 0;
+            display: inline-block;
+            padding: 3px;
+
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            position: relative;
+            bottom: 735px;
+            left: 155px;
+        }
+
+        .head {
+            position: relative;
+            bottom: 380px;
+        }
+
+        .Main_Intro {
+            position: relative;
+            bottom: 370px;
+        }
+
+        .Main_Body {
+            position: relative;
+            bottom: 350px;
+        }
+
+        .Little_girl {
+            position: relative;
+            bottom: 400px;
+            left: 440px;
+        }
+
+        .Connect_us {
+            position: relative;
+            bottom: 130px;
+            width: 200px;
+            height: 40px;
+            padding: 5px;
+
+        }
+
+        .Client_says {
+            position: relative;
+            right: 90px;
+            bottom: 575px;
+        }
+
+        .For_Clients {
+            position: relative;
+            bottom: 970px;
+            left: 340px;
+        }
+
+        #info_1 {
+            position: relative;
+            bottom: 900px;
+            left: 300px;
+        }
+
+        #info_2 {
+            position: relative;
+            bottom: 900px;
+            left: 350px;
+        }
+
+        #info_3 {
+            position: relative;
+            bottom: 900px;
+            left: 390px;
+        }
+
+        #info_4 {
+            position: relative;
+            bottom: 900px;
+            left: 440px;
+        }
+
+        #info_5 {
+            position: relative;
+            bottom: 900px;
+            left: 490px;
+        }
+
+        #info_6 {
+            position: relative;
+            bottom: 900px;
+            left: 540px;
+        }
+
+        #dotted_1 {
+            position: relative;
+            bottom: 940px;
+            left: 350px;
+        }
+
+        #dotted_2 {
+            position: relative;
+            bottom: 980px;
+            left: 450px;
+        }
+
+        #dotted_3 {
+            position: relative;
+            bottom: 1020px;
+            left: 550px;
+        }
+
+        #dotted_4 {
+            position: relative;
+            bottom: 1060px;
+            left: 650px;
+        }
+
+        #dotted_5 {
+            position: relative;
+            bottom: 1100px;
+            left: 750px;
+        }
+
+        #Title_1 {
+            position: relative;
+            bottom: 1170px;
+            left: 310px;
+        }
+
+        #Title_2 {
+            position: relative;
+            bottom: 1170px;
+            left: 370px;
+        }
+
+        #Title_3 {
+            position: relative;
+            bottom: 1170px;
+            left: 430px;
+        }
+
+        #Title_4 {
+            position: relative;
+            bottom: 1170px;
+            left: 490px;
+        }
+
+        #Title_5 {
+            position: relative;
+            bottom: 1170px;
+            left: 530px;
+        }
+
+        #Title_6 {
+            position: relative;
+            bottom: 1170px;
+            left: 620px;
+        }
+
+        #Meet_us {
+            position: relative;
+            bottom: 1040px;
+            left: 220px;
+        }
+
+        .Why_us {
+            position: relative;
+            bottom: 960px;
+            right: 30px;
+            height: 550px;
+
+        }
+        .button_play{
+            font-size: 40px;
+            position: relative;
+            bottom: 760px;
+            left: 160px;
+            color: white;
+           
+        }
+
+        .Further {
+            position: relative;
+            left: 50px;
+        }
+
+        .Template {
+            position: relative;
+            bottom: 1500px;
+            left: 200px;
+
+        }
+
+        .Template_2 {
+            position: relative;
+            bottom: 2030px;
+            left: 650px;
+
+        }
+
+        .slideshow {
+            position: relative;
+            bottom: 2025px;
+            right: 25px;
+
+        }
+
+        .feedback {
+            position: relative;
+            bottom: 2400px;
+            left: 400px;
+            border: 5px solid greenyellow;
+        }
+
+        .Clients_survey {
+            position: relative;
+            bottom: 2430px;
+            left: 300px;
+        }
+
+        .Clients_overall {
+            position: relative;
+            bottom: 2380px;
+            left: 150px;
+
+        }
+
+        .customer_name {
+            position: relative;
+            bottom: 2370px;
+            left: 500px;
+        }
+
+        .Blogs_1 {
+            position: relative;
+            bottom: 2210px;
+        }
+
+        .Blog_2 {
+            position: relative;
+            bottom: 2680px;
+            left: 400px;
+        }
+
+        .Blog_3 {
+            position: relative;
+            bottom: 3150px;
+            left: 800px;
+
+        }
+
+        .Blog_title {
+            position: relative;
+            bottom: 2300px;
+            left: 450px;
+        }
+
+        .Brochure_Download {
+            margin: 0;
+        }
+
+        .Brochure_Download {
+            position: relative;
+            bottom: 3100px;
+            right: 20px;
+        }
+
+        #Border {
+            position: relative;
+            /* border: 2px solid black ; */
+            height: 60px;
+            width: 35px;
+            bottom: 3161px;
+            left: 1230px;
+        }
+
+        .ending_info {
+
+            position: relative;
+            bottom: 3161px;
+            height: 650px;
+            right: 20px;
+            background-color: rgba(0, 0, 0, 0.705)
+        }
+
+        .Conclusion_title {
+            position: relative;
+            top: 50px;
+            left: 180px;
+        }
+
+        .Shortcut_Happiness {
+            position: relative;
+            top: 50px;
+            left: 180px;
+        }
+
+        .Contact {
+            position: relative;
+            top: 80px;
+            left: 150px;
+        }
+
+        .End_motto {
+            position: relative;
+            left: 600px;
+            bottom: 60px;
+        }
+
+        .Appointment_button {
+            position: relative;
+            left: 590px;
+            bottom: 30px;
+            width: 180px;
+            height: 60px;
+        }
+
+        .Consultant_button {
+            position: relative;
+            left: 620px;
+            bottom: 30px;
+            width: 180px;
+            height: 60px;
+        }
+
+        .Locate_us {
+            position: relative;
+            left: 160px;
+            top: 50px;
+        }
+
+        .Recent_Post {
+            position: relative;
+            left: 470px;
+            bottom: 190px;
+        }
+
+        .Recent_Tweets {
+            position: relative;
+            left: 800px;
+            bottom: 460px;
+        }
+
+        .twitter {
+            position: relative;
+            height: 20px;
+            bottom: 540px;
+            left: 770px;
+            border-radius: 4px;
+        }
+
+        .twitter_2 {
+            position: relative;
+            height: 20px;
+            bottom: 620px;
+            left: 740px;
+            border-radius: 4px;
+        }
+
+        .Border_2 {
+            position: relative;
+            left: 1235px;
+            bottom: 3812px;
+            background-color: rgba(0, 0, 0, 0.705)
+        }
+
+        .Follow_us {
+            position: relative;
+            bottom: 3812px;
+            right: 20px;
+        }
+        .Social_media{
+            position: relative;
+            right: 270px;
+            bottom: 20px;
+        }
+        .Our_website{
+            position: relative;
+            left: 200px;
+            top:20px;
+
+        }
+        .For_other_content{
+            position: relative;
+            left: 1050px;
+            bottom: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 offset-2">
+
+                <h3 class="title">
+                    <span style="color:greenyellow;" class="First_name"><b><i>VITAL</i></b></span>
+                    <span class="Second_name text-secondary"><b>partners</b></span>
+                </h3>
+                <h5>
+                    <span class="Motto text-secondary">Shortcut To Your Happiness</span>
+                    <input type="text" id="search">
+                </h5>
+            </div>
+            <div class="col-6 pt-4 offset-1">
+                <h6>
+                    <span class="contact_us text-secondary "><i>Call Us Today!(02) 9017 8413</i></span>
+                </h6><br>
+                <nav>
+                    <a href="#home" class="text-success">Home</a>
+                    <a href="#Dating " class="text-secondary">Dating Blog</a>
+                    <a href="#help" class="text-secondary">Who We Help</a>
+                    <a href="#Vital" class="text-secondary">Why Vital</a>
+                    <a href="#Reviews" class="text-secondary">Reviews</a>
+                    <a href="#Contact" class="text-secondary">Contact Us</a>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary">
+        <div class="row">
+            <div class="col">
+                <h2 class="Intro">
+                    <p class="text-white">Lorem,ipsum dolor sit amet.</p>
+                    <button type="button" class="btn btn-secondary">Download Now</button>
+
+
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img src="/Img/Background1.jpeg" alt="..." class="Inside_Vital">
+                <!-- <img src="https://source.unsplash.com/1290x450/?beach" alt="..." class="Inside_Vital"> -->
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                    <pre class="Vital_Intro"><b>
+                       Lorem ipsum dolor sit posuer
+                        long dolor sit amet.
+                       It has survived not on ?
+                       <button type="button" class="btn btn-success ">Contact Us Now</button>
+                    </p></pre></b>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="play_button bg-success"> </button>
+                <!-- <p><i class="arrow right"></i></p> -->
+                <p class="button_play">▸</p>
+            </div>
+        </div>
+
+        <div class="container offset-2">
+            <div class="row">
+                <div class="col">
+                    <h1 class="head">About Us </h1>
+
+                    <h4 class="Main_Intro text-secondary">
+                        It is a long established fact that a <br>
+                        reader will be distracted.
+                    </h4>
+                    <p class="Main_Body">
+                        <b>The point of using Lorem ipsum is </b> it has a more-or-less normal <br> button of letters,
+                        as
+                        opposed to using 'Content here, content here', making <br>look like readable English <br><br>
+
+                        <b>There are many variations of</b> passages of lorem ipsum available, but the <br> majority
+                        have suffered altereation in some form<br><br>
+
+                        <span style="color : green;">&#10003;</span><b>2000 years old. Richard McClint</b><br>
+                        <br>
+                        <span style="color:green;">&#10003;</span><b>Discovered the undoubtable source</b><br>
+                        <br>
+                        <span style="color: green;">&#10003;</span><b>Lorem ipsum dolor sit amet.</b><br>
+                        <br>
+                        remaining essentially unchanged.It was popularised in 1960s with <br> the release Letraset
+                        sheets
+                        containing.<br>
+                        <button class="Connect_us bg-success text-white">Contact Us Now!</button>
+
+                        <img src="/Img/girl.png" alt="..." class="Little_girl" style="border:5px solid grey">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="/Img/background4.jpeg" alt="...." class="Client_says" style="opacity: 0.70;">
+                    <h1 class="For_Clients">How Vital Works </h1><br>
+                    <h4 class="For_Clients" >
+                        <i>Step,Hop Or Skip Your Way To Happiness</i> 
+                    </h4>
+                    <button id="info_1"
+                        style=" border: 4px solid greenyellow;height: 50px; width: 50px;border-radius: 60px;">1</button>
+                    <button id="info_2"
+                        style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">2</button>
+                    <button id="info_3"
+                        style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">3</button>
+                    <button id="info_4"
+                        style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">4</button>
+                    <button id="info_5"
+                        style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">5</button>
+                    <button id="info_6"
+                        style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">6</button>
+                    <p id="dotted_1">-----------</p>
+                    <p id="dotted_2">-----------</p>
+                    <p id="dotted_3">-----------</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="dotted_4">-----------</p>
+                    <p id="dotted_5">-----------</p>
+                    <span id="Title_1">STEP</span>
+                    <span id="Title_2">STEP</span>
+                    <span id="Title_3">STEP</span>
+                    <span id="Title_4">HOP</span>
+                    <span id="Title_5">HOP</span>
+                    <span id="Title_6">SKIP</span>
+                    <span id="Meet_us"
+                        style="border: 2px solid green;width: 150px; padding: 10px; background: white; color: gray; ">Pop
+                        into our office and meet us face to face.. </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <img src="/Img/view.jpeg" alt="..." class="Why_us" style="opacity: 0.70;">
+
+                    <div class=" Template card" style="width: 20rem;opacity: 0.80 ;padding: 7px;">
+
+                        <div class="card-body">
+                            <img src="/Img/woman.png" class="Further img-fluid" alt="..." style="width: 150px;">
+                            <h5 class="card-title"><b>What is Lorem ipsum?</b></h5>
+                            <p class="card-text"><br>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Non minus a dicta
+                                ullam
+                                labore
+                                consequuntur, quam tempora officiis magni sed incidunt? Doloribus fugit modi laboriosam
+                                voluptate at
+                                corrupti. Vitae vero eum voluptatem quaerat expedita quod sunt dolorum labore voluptatum
+                                corrupti .
+                            </p>
+                            <a href="#" class="btn btn-success text-white">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="Template_2 card" style="width: 20rem;opacity: 0.80;padding: 7px;">
+                        <img src="/Img/woman.png" class=" Further img-fluid" alt="..." style="width:150px;">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>What is Lorem ipsum?</b></h5>
+                            <p class="card-text"><br>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Non minus a dicta
+                                ullam
+                                labore
+                                consequuntur, quam tempora officiis magni sed incidunt? Doloribus fugit modi laboriosam
+                                voluptate at
+                                corrupti. Vitae vero eum voluptatem quaerat expedita quod sunt dolorum labore voluptatum
+                                corrupti .
+                            </p>
+                            <a href="#" class="btn btn-success text-white">Get Started</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="width:1310px ;opacity: 0.70;" class=" slideshow container-fluid">
+            <div class="row">
+                <div class="column">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/Img/carsousel1.jpeg" class="d-block w-100" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="/Img/carsouel2.jpeg" class="d-block w-100" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="/Img/carsouel3.jpeg" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h1 class="Clients_survey">What Our Client Say</h1>
+                    <img src="/Img/girl.png" alt="..." class=" feedback rounded-circle"
+                        style="width:150px;opacity: 0.8;">
+
+                    <p style="font-size: 20px;" class="Clients_overall"><b>Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit Lorem ipsum dolor
+                            sit amet.
+                            <br>Ipsum perspiciatis quos illum
+                            adipisci reprehenderit distinctio excepturi dolorum fuga. <br>
+                            Inventore, maiores Lorem ipsum dolor sit amet.</p></b>
+                    <span style="font-size: 20px;" class="customer_name"><b>-MT.Chatwood</b></span </div>
+                </div>
+            </div>
+        </div>
+        <span class="Blog_title">
+            <h1>Our Latest Blog Posts</h1>
+        </span>
+        <div class=" Blogs_1 container">
+            <div class="row">
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/Img/face.jpeg" class="Further" alt="..." style="width: 150px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum
+                                dolor sit amet.
+                                <br>Ipsum perspiciatis quos illum
+                                adipisci reprehenderit distinctio excepturi dolorum fuga. <br>
+                                Inventore, maiores Lorem ipsum dolor sit amet.
+                            </p></b></p>
+                            <button type="button" class="btn btn-outline-success"
+                                style="border: 2px solid rgba(0, 128, 0, 0.801);">Read More</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" Blog_2 container">
+            <div class="row">
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/Img/forblog3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Lorem ipsum dolor sit</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum
+                                dolor sit amet.
+                                <br>Ipsum perspiciatis quos illum
+                                adipisci reprehenderit distinctio excepturi dolorum fuga. <br>
+                                Inventore, maiores Lorem ipsum dolor sit amet.
+                            </p></b></p>
+                            <button type="button" class="btn btn-outline-success bg-success text-white"
+                                style="border: 2px solid rgba(0, 128, 0, 0.801);">Read More</button>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Blog_3 container">
+            <div class="row">
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/Img/forblog3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum
+                                dolor sit amet.
+                                <br>Ipsum perspiciatis quos illum
+                                adipisci reprehenderit distinctio excepturi dolorum fuga. <br>
+                                Inventore, maiores Lorem ipsum dolor sit amet.
+                            </p></b></p>
+                            <button type="button" class="btn btn-outline-success "
+                                style="border: 2px solid rgba(0, 128, 0, 0.801);">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Brochure_Download container-fluid bg-secondary">
+            <div class="row">
+                <div class="col">
+                    <h2 class="Intro">
+                        <p class="text-white">Lorem,ipsum dolor sit amet.</p>
+                        <button type="button" class="btn btn-secondary">Download Now</button>
+
+
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div id="Border" class="bg-secondary"> </div>
+        <div class="ending_info">
+            <h2>
+                <span style="font-size: 50px;color: greenyellow;" class="Conclusion_title">Vital</span>
+                <span style="color: gainsboro; font-size: 30px;" class="Conclusion_title"><i>partners</i></span>
+            </h2>
+            <h6 style="color: gainsboro;" class="Shortcut_Happiness">
+                Shortcut To Your Happiness
+
+            </h6>
+            <h3 style="color:gainsboro ;" class="Contact"><i> Call Us Today! (02) 9017 8413</i></h3>
+
+            <h6 class="End_motto " style="font-size:20px; color:gainsboro">Shortcut your search to happiness right
+                now.<br>
+
+                Live a life without regrets and take actions today !</h6>
+
+            <button style="background-color:greenyellow;color: white;" class="Appointment_button">Book an
+                Appointment</button>
+            <button style="background-color:greenyellow;color: white;" class="Consultant_button">Contact a
+                Consultant</button>
+
+           <p style="color: gainsboro;font-size: 14px" class="Locate_us">
+
+                <b>CONTACT INFO</b><br>
+                <br>
+
+                4/220 George St, Sydney NSW 2000<br>
+
+                Phone: (02) 9017 8413<br>
+
+                Email: info@syd.vitalpartners.com.au<br>
+                <br><br>
+
+
+                Canberra City ACT 2600<br> 
+
+                Phone: (02) 9017 8426<br>
+
+                Email: can@syd vitalpartners.com.au
+            </p>
+
+            <p style="color: gainsboro; font-size: 14px;" class="Recent_Post">
+
+                <b>Recent Post</b><br>
+                <br>
+                How to Recover After a Bad Date<br>
+                <br>
+
+                ▸Review | Vital Partners Review<br>
+                <br>
+
+                ▸ Review | Vital Partners Review<br>
+                <br>
+
+                ▸ Review | Vital Partners Derek and Julie<br>
+                <br>
+
+                ▸7 Rules for a Happy Relationship | Vital<br> Partners Dating Sydney
+                <br>
+            </p>
+
+            <p style="color: gainsboro ;font-size: 14px;" class="Recent_Tweets">
+
+                <b>Recent Tweets</b><br>
+                <br>
+                Are you being vulnerable to find love? via offline <br>dating agency Sydney Canberra Vital
+                Partners<br>
+                <br><br>
+                Ending a relationship? Read why you shouldn't<br> break up by text-offine dating agency Vital
+                <br>Partners Sydney Canberra<br>
+            </p>
+
+            <img src="/Img/twitter.png" alt="..." class="twitter">
+            <img src="/Img/twitter.png" alt="..." class="twitter_2">
+        </div>
+
+        <div class="Border_2" style="height: 650px; width: 30px;"></div>
+
+        <div style="height: 60px; width: 1285px;border: 2px solid black; background-color: black" class="Follow_us">
+            <span style="color: gainsboro;display: flex; justify-content: left; font-size: 14px;"class="Our_website">VitalPartners.com.au</span>
+            <span style="color: gainsboro; display: flex;justify-content: center;font-size: 14px;" >Contact| Terms of Use | Privacy policy | Disclaimer</span>
+            <span style="color: gainsboro;display: flex;justify-content: right;font-size: 14px;" class="Social_media">Follow us:</span>
+            <img src="/Img/socialmedia.png" alt="..." style="height: 30px;"  class="For_other_content">
+       
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

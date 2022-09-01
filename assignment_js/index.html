@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]> <html class="no-js gt-ie8 ie" lang="en" dir="ltr"><![endif]-->
+
+<head>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>Vital Partners Leading Dating and Introduction Agency in Sydney &amp; Canberra</title>
+	<link href="css/default.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+	<!--<link href="css/small-resolution.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/medium-resolution.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/high-resolution.css" rel="stylesheet" type="text/css" media="all">-->
+
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<!-- Responsive -->
+	<link href="css/responsive.css" rel="stylesheet" />
+	<script defer src="index.js"></script>
+	<style>
+		.ALL {
+			color: red;
+		}
+
+		.Correct {
+			color: green;
+
+
+		}
+		#submit{
+			color: white;
+			background-color: greenyellow;
+			width: 150px;
+			margin-left: 350px;
+			padding: 10px;
+		}
+	</style>
+
+
+
+</head>
+
+<body>
+	<!--wrapper-starts-->
+	<div id="wrapper">
+
+		<!--header-starts-->
+		<header class="clearfix">
+
+			<div class="container">
+				<!--container Start-->
+
+				<div class="Logo_Cont left">
+					<!--Logo_Cont Start-->
+
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+
+				</div>
+				<!--Logo_Cont End-->
+
+				<div class="Home_Cont_Right right">
+					<!--Home_Cont_Right Start-->
+
+					<div class="Home_Cont_Right_Top left">
+						<!--Home_Cont_Right_Top Start-->
+
+						<div class="Top_Search1 left">Call Us Today! (02) 9017 8413</div>
+						<div class="Top_Search2 right"><input id="tags1" name="" type="text" onclick="this.value='';"
+								onblur="validate_field('phone');" value="Type desired Job Location" /></div>
+
+					</div>
+					<!--Home_Cont_Right_Top End-->
+
+					<div class="Home_Cont_Right_Bottom left">
+						<!--Home_Cont_Right_Bottom Start-->
+						<div class="toggle_menu"><a href="javascript:void(0)">Menu</a></div>
+						<div id="topMenu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="blog_index.html">Dating Blog</a></li>
+								<li><a href="who_we_help.html">Who We Help</a></li>
+								<li><a href="why_vital.html">Why Vital</a></li>
+								<li><a href="reviews.html">Reviews</a></li>
+								<li><a href="contact_us.html">Contact Us</a></li>
+							</ul>
+						</div>
+
+					</div>
+					<!--Home_Cont_Right_Bottom End-->
+
+				</div>
+				<!--Home_Cont_Right End-->
+
+			</div>
+			<!--container End-->
+
+		</header>
+		<!--header-ends-->
+
+		<div class="section banner_section who_we_help">
+			<div class="container">
+				<h4>Thanks For Your Inquiry</h4>
+			</div>
+		</div>
+
+		<!-- Content Section Start-->
+		<div class="section content_section">
+			<div class="container">
+				<div class="filable_form_container">
+					<div class="form_heading_block">
+						<ul>
+							<li class="active">
+								<div class="box">
+									<img src="images/no_1.png" alt="">
+									<span>
+										<span>YOUR</span> PROFILE
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="box">
+									<img src="images/no_2.png" alt="">
+									<span>
+										<span>YOUR PARTNER</span> PREFERENCES
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="box">
+									<img src="images/no_3.png" alt="">
+									<span>
+										<span>YOUR</span> INTEREST
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="contect_text">So we can successfully match your details with suitable people, we first
+						need to collect some information about you. Read each question carfully and select or place a
+						tick in the box for each of your characteristics. Please answer as honestly as you can,
+						otherwise you may be disappointed with your matches and they with you.</div>
+
+					<div class="form_container_block ">
+						<ul>
+							<li class="fileds">
+								<form action="#"></form>
+								<div class="name_fileds">
+									<label>First Name</label>
+									<input name="firstname" onclick="validateFirstname()" type="text" id="Firstname" />
+									<p id="Firstname_error" class="ALL"></p>
+								</div>
+								<div class="name_fileds">
+									<label>Last Name</label>
+									<input name="lastname" onclick="validateSecondname()" type="text" id="Lastname" />
+									<p id="Lastname_error" class="ALL"></p>
+								</div>
+							</li>
+							<li class="fileds">
+								<div class="phone_fileds">
+									<label>Phone No</label>
+									<input name="phone" onclick="validatePhone()" type="text" id="Phone" />
+									<p id="Phone_error" class="ALL"></p>
+								</div>
+								<div class="phone_fileds">
+									<label>Office No</label>
+									<input name="office" onclick="validateOffice()" type="text" id="Office" />
+									<p id="Office_error" class="ALL"></p>
+								</div>
+							</li>
+							<li class="fileds">
+								<div class="email_fileds">
+									<label>Email </label>
+									<input name="email" onclick="validateEmail()" type="text" id="Email"
+										autocomplete="off" />
+									<p id="Email_error" class="ALL"></p>
+								</div>
+								<div class="pass_fileds">
+									<label>Password</label>
+									<input name="password" type="text" onclick="validatePass()" id="Password" />
+									<p id="Pass_error" class="ALL"></p>
+								</div>
+							</li>
+							<li class="fileds">
+								<div class="pass_fileds">
+									<label>Confirm Password</label>
+									<input name="password" onclick="validateConfirm()" type="text" id="Confirm" />
+									<p id="Confirm_error" class="ALL"></p>
+								</div>
+								<div class="dob_fileds selectbox">
+									<label>My birthdate is</label>
+
+
+									<ul>
+										<li>
+											<select name="month" class="select month" id="month" onblur="calculateAge()"
+												onchange="calculateAge()">
+												<option value="1">Jan</option>
+												<option value="2">Feb</option>
+												<option value="3">March</option>
+												<option value="4">April</option>
+												<option value="5">May</option>
+												<option value="6">June</option>
+												<option value="7">July</option>
+												<option value="8">Aug</option>
+												<option value="9">Sep</option>
+												<option value="10">Oct</option>
+												<option value="11">Nov</option>
+												<option value="12">Dec</option>
+											</select>
+										</li>
+										<li>
+											<select name="day" class="select day" id="day" onblur="calculateAge()"
+												onchange="calculateAge()">
+												<option value="1">01</option>
+												<option value="2">02</option>
+												<option value="3">03</option>
+												<option value="4">04</option>
+												<option value="5">05</option>
+												<option value="6">06</option>
+												<option value="7">07</option>
+												<option value="8">08</option>
+												<option value="9">09</option>
+												<option value="10">10</option>
+
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option id="day29" value="29">29</option>
+												<option id="day30" value="30">30</option>
+												<option id="day31" value="31">31</option>
+											</select>
+										</li>
+
+										<li>
+											<select name="year" class="select year" id="year" onblur="calculateAge()"
+												onchange="calculateAge()">
+												<option value="volvo">Year</option>
+											</select>
+										</li>
+									</ul>
+									<span id="error11"></span>
+								</div>
+							</li>
+							<li class="fileds">
+								<div class="age_fileds">
+									<label>Age</label>
+									<input name="age" type="text" id="txt-age" onchange="calculateAge()"
+										onblur="calculateAge()" />
+								</div>
+								<div class="gender_fileds">
+									<label>Gender</label>
+									<ul>
+										<li><input type="radio" class="radio" id="residence1" name="radio"
+												onclick="validateGender()" /><label class="radio-label"
+												for="residence1">Male</label></li>
+
+
+										<li><input type="radio" class="radio" id="residence2" name="radio"
+												onclick="validateGender()" /><label class="radio-label"
+												for="residence2">Female</label></li>
+										<p id="Choice" class="Correct"></p>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="interest_fileds">
+									<label>Interest</label>
+									<ul>
+										<li><input type="checkbox" class="checkbox" id="checkbox_sample18"
+												onclick="validateInterest()" /> <label class="css-label"
+												for="checkbox_sample18">Biking</label></li>
+										<li><input type="checkbox" class="checkbox" id="checkbox_sample19"
+												onclick="validateInterest()" /> <label class="css-label"
+												for="checkbox_sample19">Reading</label></li>
+										<li><input type="checkbox" class="checkbox" id="checkbox_sample20"
+												onclick="validateInterest()" /> <label class="css-label"
+												for="checkbox_sample20">Playing</label></li>
+										<p id="Hobby" class="ALL"></p>
+									</ul>
+								</div>
+								<div class="about_you_fileds">
+									<label>About you</label>
+									<textarea id="About_you" onclick="validateAbout()"></textarea>
+									<p id="You" class="ALL"></p>
+								</div>
+							</li>
+						</ul>
+						<!-- <button onclick="Click()">Submit</button> -->
+						<div class="next_btn_block">
+							<div class="next_btn">
+								<!-- <a href="DONE.html" type="submit" name="submit" id="submit" class="btn btn-success"
+									 onsubmit="return Click()" alt="small_triangle"> SUBMIT</a>
+									  -->
+								<button onclick="Click()" class="btn btn-success" alt="small_triangle" type="submit"
+									name="submit" id="submit">Submit</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 
+		<a type="submit" name="submit" id="submit" class="btn btn-sucess"
+			onclick="return validateForm()" onsubmit="return validateForm()" alt="small_triangle">Submit</a> -->
+		<!-- Content Section End-->
+
+
+
+
+		<div class="section clearfix section-colored7">
+			<!--section start-->
+
+			<div class="container">
+				<!--container Start-->
+
+				<div class="Download_Cont_Top_Left left">
+					<!--Download_Cont_Top Start-->
+					<img src="images/icon5.png" alt="">
+					<h1 style="display:inline;">FREE: Men Are From Mars</h1> <a href="#">Download Now</a>
+
+				</div>
+				<!--Download_Cont_Top End-->
+
+			</div>
+			<!--container End-->
+
+		</div>
+		<!--section End-->
+
+
+
+
+		<!--footer-starts-->
+		<footer class="footer_wrapper">
+
+			<div class="container">
+				<!--container Start-->
+
+				<div class="Footer_Cont_Top clearfix">
+					<!--Footer_Cont_Top Start-->
+
+					<span class="left"><img src="images/foot_logo.png" alt=""></span>
+					<p class="right">Shortcut your search to happiness right now.
+						Live a life without regrets and take action today!</p>
+				</div>
+				<!--Footer_Cont_Top End-->
+
+				<div class="Footer_Cont_Top2 clearfix">
+					<!--Footer_Cont_Top2 Start-->
+
+					<h1>Call Us Today! (02) 9017 8413</h1>
+					<a href="#">Book an Appointment <img src="images/icon7.png" alt=""></a>
+					<a href="#">Contact a Consultant <img src="images/icon6.png" alt=""></a>
+				</div>
+				<!--Footer_Cont_Top2 End-->
+
+				<div class="Footer_Cont_Top3 clearfix">
+					<!--Footer_Cont_Top3 Start-->
+
+					<div class="Foot_Link1">
+						<!--Foot_Link1 Start-->
+
+						<h1>CONTACT INFO</h1>
+
+						<div class="Foot_Link2">
+							<!--Foot_Link2 Start-->
+
+							<span>4/220 George St, Sydney NSW 2000</span>
+							<p>Phone: (02) 9017 8413</p>
+							<p>Email: <a href="mailto:info@syd.vitalpartners.com.au"
+									target="_blank">info@syd.vitalpartners.com.au</a></p>
+
+						</div>
+						<!--Foot_Link2 End-->
+
+						<div class="Foot_Link2">
+							<!--Foot_Link2 Start-->
+
+							<span>Canberra City Act 2600 </span>
+							<p>Phone: (02) 9017 8426</p>
+							<p>Email: <a href="mailto:can@syd.vitalpartners.com.au"
+									target="_blank">can@syd.vitalpartners.com.au</a></p>
+
+						</div>
+						<!--Foot_Link2 End-->
+
+					</div>
+					<!--Foot_Link1 End-->
+
+					<div class="Foot_Link1">
+						<!--Foot_Link2 Start-->
+						<h1>RECENT POSTS</h1>
+
+						<div class="Foot_Link3">
+							<!--Foot_Link3 Start-->
+							<ul>
+								<li><a href="#">How to Recover After a Bad Date</a></li>
+								<li><a href="#">Review | Vital Partners Review</a></li>
+								<li><a href="#">Review | Vital Partners Review</a></li>
+								<li><a href="#">Review | Vital Partners Derek and Julie</a></li>
+								<li><a href="#">7 Rules for a Happy Relationship | Vital Partners Dating Sydney</a></li>
+							</ul>
+						</div>
+						<!--Foot_Link3 End-->
+
+					</div>
+					<!--Foot_Link1 End-->
+
+					<div class="Foot_Link1">
+						<!--Foot_Link2 Start-->
+						<h1>RECENT TWEETS</h1>
+
+						<div class="Foot_Link4">
+							<!--Foot_Link4 Start-->
+							<ul>
+								<li class="left">
+									<p>Are you being vulnerable to find love? via offline dating agency Sydney Canberra
+										Vital Partners </p>
+									<div class="Page_Link left"><a href="#">http://t.co/hGCgHEU6If</a></div>
+									<div class="Page_Link right"> 1 week ago</div>
+								</li>
+								<li class="left">
+									<p>Are you being vulnerable to find love? via offline dating agency Sydney Canberra
+										Vital Partners </p>
+									<div class="Page_Link left"><a href="#">http://t.co/hGCgHEU6If</a></div>
+									<div class="Page_Link right"> 2 week ago</div>
+								</li>
+							</ul>
+						</div>
+						<!--Foot_Link4 End-->
+
+					</div>
+					<!--Foot_Link2 End-->
+
+
+				</div>
+				<!--Footer_Cont_Top3 End-->
+
+			</div>
+			<!--container End-->
+
+			<div class="section clearfix section-colored9">
+				<!--section section-colored9 start-->
+
+				<div class="container">
+					<!--container Start-->
+
+					<div class="Foot_Link5 left">
+						<!--Foot_Link5 Start-->
+						&copy; VitalPartners.com.au
+					</div>
+					<!--Foot_Link5 End-->
+
+					<div class="Foot_Link6 left">
+						<!--Foot_Link5 Start-->
+						<a href="contact_us.html">Contact</a> | <a href="terms_of_use.html">Terms of Use</a> | <a
+							href="privacy_policy.html">Privacy Policy</a> | <a href="disclaimer.html">Disclaimer</a>
+					</div>
+					<!--Foot_Link6 End-->
+
+
+					<div class="Foot_Link7 right">
+						<!--Foot_Link7 Start-->
+						<span>FOLLOW US:</span>
+
+						<ul class="social_media">
+							<li><a href="#" class="fb">facebook</a></li>
+							<li><a href="#" class="twitter">Twitter</a></li>
+							<li><a href="#" class="linkedin">LinkedIn</a></li>
+							<li><a href="#" class="you_tube">You Tube</a></li>
+							<li><a href="#" class="gplus">googl plus</a></li>
+						</ul>
+
+
+						<!-- <p><a href="#"><img src="images/icon10.png" alt=""></a></p>
+                <p><a href="#"><img src="images/icon11.png" alt=""></a></p>
+                <p><a href="#"><img src="images/icon12.png" alt=""></a></p>
+                <p><a href="#"><img src="images/icon13.png" alt=""></a></p>
+                <p><a href="#"><img src="images/icon14.png" alt=""></a></p> -->
+					</div>
+					<!--Foot_Link7 End-->
+
+				</div>
+				<!--container End-->
+
+			</div>
+			<!--section section-colored9 End-->
+
+			<div class="section section-colored10">
+				<!--section section-colored9 start-->
+
+				<div class="container">
+					<!--container Start-->
+					<div class="Foot_Link8 ">
+						<!--Foot_Link8 Start-->
+						<a href="#">Who Designed This Site?</a> <a href="#">Who Built This Site?</a>
+					</div>
+					<!--Foot_Link8 End-->
+				</div>
+				<!--container End-->
+
+			</div>
+			<!--section section-colored9 End-->
+		</footer>
+		<!--footer-ends-->
+
+		<!-- Sticky Contact Number Start
+  <div class="fixed_contact_number">
+  	<div class="container">
+  		<div class="contact_number">
+  			<span>Call Us Today! (02) 9017 8413</span>
+  			<a href="contact_us.html">Conatct Us</a>
+  		</div>  		
+  	</div>
+  </div>
+   Sticky Contact Number End-->
+
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.bxslider').bxSlider();
+		});
+	</script>
+	<!--wrapper-starts-->
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.select').each(function () {
+				var title = $(this).attr('title');
+				if ($('option:selected', this).val() != '') title = $('option:selected', this).text();
+				$(this).css({ 'z-index': 10, 'opacity': 0, '-khtml-appearance': 'none' }).after('<span class="select">' + title + '</span>').change(function () {
+					val = $('option:selected', this).text();
+					$(this).next().text(val);
+				})
+			});
+		});
+	</script>
+	<script>
+
+		let Firstname = document.getElementById("Firstname");
+
+
+		//  FOR FIRST NAME
+
+		function validateFirstname() {
+			let check_Firstname = /^[A-Z a-z]+$/;
+
+			if (Firstname.value == "") {
+
+				document.getElementById("Firstname_error").innerHTML = ("FIRST NAME COMPULSORY");
+				return false;
+
+			}
+			else if (Firstname.value.length <= 3) {
+				document.getElementById("Firstname_error").innerHTML = ("NAME'S LENGTH SHOULD BE GREATER THAN 3");
+				return false;
+			}
+			else if (check_Firstname.test(Firstname.value) == false) {
+
+				document.getElementById("Firstname_error").innerHTML = ("ONLY ALPA ARE ALLOWED");
+				return false;
+			}
+			else {
+				document.getElementById("Firstname_error").innerHTML = "";
+				return true;
+			}
+		}
+
+		// FOR LAST NAME
+
+		let check_Lastname = /^[A-Z a-z]+$/;
+		function validateSecondname() {
+			let Lastname = document.getElementById("Lastname");
+
+
+			if (Lastname.value == "") {
+				document.getElementById("Lastname_error").innerHTML = ("LAST NAME COMPULSORY");
+				return false;
+			}
+			else if (check_Lastname.test(Lastname.value) == false) {
+				document.getElementById("Lastname_error").innerHTML = ("ONLY ALPA ARE ALLOWED");
+				return false;
+			}
+
+			else {
+
+				document.getElementById("Lastname_error").innerHTML = "";
+				return true;
+			}
+		}
+		// For Phone
+
+		let check_Phone = /^[789][0-9]{9}$/
+
+
+		function validatePhone() {
+			let Phone = document.getElementById("Phone");
+
+			if (Phone.value == "") {
+				document.getElementById("Phone_error").innerHTML = ("MOBILE NUMBER IS COMPULSORY WITH EXACT 10 DIGIT ");
+				return false;
+			}
+
+			else if (check_Phone.test(Phone.value) == false) {
+				document.getElementById("Phone_error").innerHTML = ("ERROR IN INPUT THAT IS CHECK WHETHER ALL ARE NUMBERS ONLY OR CHECK NUMBERS ARE EXACT IN LENGTH");
+				return false;
+			}
+			else {
+				document.getElementById("Phone_error").innerHTML = "";
+				return true;
+			}
+		}
+
+		// FOR OFFICE
+
+		let check_Office = /^[2789][0-9]{9}$/
+
+		function validateOffice() {
+			let Office = document.getElementById("Office");
+
+			if (Office.value == "") {
+				document.getElementById("Office_error").innerHTML = ("ENTER OFFICE NUMBER");
+				return false;
+
+			}
+			else if (check_Office.test(Office.value) == false) {
+				document.getElementById("Office_error").innerHTML = ("ERROR IN INPUT THAT IS CHECK WHETHER ALL ARE NUMBERS ONLY OR CHECK NUMBERS ARE EXACT IN LENGTH");
+				return false;
+			}
+			else {
+				document.getElementById("Office_error").innerHTML = "";
+				return true;
+			}
+		}
+
+		//FOR EMAIL
+
+		let check_Email = /^[A-Za-z0-9]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z]{2,6}$/
+
+		function validateEmail() {
+			let Email = document.getElementById("Email");
+
+			if (Email.value == "") {
+				document.getElementById("Email_error").innerHTML = ("EMAIL IS COMPULSORY");
+				return false;
+			}
+			else if (Email.value.indexOf("@") <= 0) {
+
+				document.getElementById("Email_error").innerHTML = ("Invalid @ position");
+				return false;
+
+			}
+			else if (check_Email.test(Email.value) == false) {
+				document.getElementById("Email_error").innerHTML = ("Invalid email You did something wrong!!")
+				return false;
+			}
+			else {
+				document.getElementById("Email_error").innerHTML = "";
+				return true;
+			}
+
+
+		}
+
+		// FOR PASSWORD
+
+		let check_password = /^[A-Za-z0-9]{8,12}$/
+
+		function validatePass() {
+
+			let Password = document.getElementById("Password")
+
+			if (Password.value == "") {
+				document.getElementById("Pass_error").innerHTML = ("PASSWORD IS COMPULSORY");
+				return false;
+
+			}
+			else if (check_password.test(Password.value) == false) {
+				document.getElementById("Pass_error").innerHTML = ("INVALID PASSWORD , PLEASE CHECK ")
+				return false;
+
+			}
+			else {
+				document.getElementById("Pass_error").innerHTML = "";
+				return true;
+
+			}
+		}
+
+
+		// FOR  CONFIRM PASSWORD
+
+		function validateConfirm() {
+			let Password = document.getElementById("Password")
+			let Confirm = document.getElementById("Confirm");
+
+			if (Confirm.value == "") {
+
+				document.getElementById("Confirm_error").innerHTML = ("PASSWORD IS COMPULSORY");
+				return false;
+			}
+			else if (Confirm.value !== Password.value) {
+
+				document.getElementById("Confirm_error").innerHTML = ("PASSWORD DOES NOT MATCH");
+				return false
+
+			}
+			else {
+				document.getElementById("Confirm_error").innerHTML = "";
+			}
+
+		}
+
+		// FOR GENDER
+
+		function validateGender() {
+			Male = document.getElementById("residence1");
+			Female = document.getElementById("residence2");
+
+			if (Male.checked == true) {
+				document.getElementById("Choice").innerHTML = ("MALE IS SELECTED");
+				return true;
+			}
+			else if (Female.checked == true) {
+				document.getElementById("Choice").innerHTML = ("FEMALE IS SELECTED");
+				return true;
+			}
+
+		}
+		// FOR INTEREST
+
+		function validateInterest() {
+			Biking = document.getElementById("checkbox_sample18");
+			Reading = document.getElementById("checkbox_sample19");
+			Playing = document.getElementById("checkbox_sample20");
+
+			if (Biking.checked == true) {
+				document.getElementById("Hobby").innerHTML = ("");
+
+			}
+			else if (Reading.checked == true) {
+				document.getElementById("Hobby").innerHTML = ("");
+
+			}
+			else if (Playing.checked == true) {
+				document.getElementById("Hobby").innerHTML = ("");
+
+			}
+
+			// if(Biking.checked==true && Reading.checked==true){
+			// 	document.getElementById("Hobby").innerHTML=("BIKING & READING ARE SELECTED");
+			// 	return true ;
+
+			// }
+			// else if(Biking.checked==true && Playing.checked==true){
+			// 	document.getElementById("Hobby").innerHTML=("BIKING & PLAYING ARE SELECTED");
+			// 	return true ;
+
+			// }
+			// else if(Reading.checked==true && Playing.checked==true){
+			// 	document.getElementById("Hobby").innerHTML=("PLAYING & READING ARE SELECTED");
+			// 	return true ;
+
+			// }
+			else {
+				document.getElementById("Hobby").innerHTML = ("ATLEAST ONE CHECKBOX NEEDS TO BE SELECTED")
+			}
+
+
+		}
+
+		// FOR ABOUT US
+
+		let check_Aboutus = /^[a-z A-Z]{3,}$/
+
+		function validateAbout() {
+
+			About = document.getElementById("About_you")
+
+			if (About.value == "") {
+				document.getElementById("You").innerHTML = ("PLEASE FILL THIS ,ITS  COMPULSORY");
+				return false;
+			}
+			else if (check_Aboutus.test(About.value) == false) {
+				document.getElementById("You").innerHTML = ("INVALID, ONLY ALPHA ARE ALLOWED !!!");
+				return false;
+
+			}
+			else {
+				document.getElementById("You").innerHTML = "";
+				return true;
+
+			}
+		}
+
+		// FOR ADDING YEAR
+
+		window.onload = function () {
+			let years = document.getElementById("year");
+			let currentYear = (new Date()).getFullYear();
+			for (let year = 1900; year <= currentYear; year = year + 1) {
+				let option = document.createElement("option");
+				option.innerHTML = year;
+				option.value = year;
+				years.appendChild(option);
+			}
+		};
+
+		// FOR LEAP YEAR FOR AGE
+
+
+
+		function ageCheck() {
+			let day = document.getElementById("day").value;
+			let month = document.getElementById("month").value;
+			let year = document.getElementById("year").value;
+
+			if (day != "day") {
+				document.getElementById("error11").style.display = "block";
+				errorNode11.innerHTML = "please select proper date format";
+
+			} else if (month != "month") {
+				document.getElementById("error11").style.display = "block";
+				errorNode11.innerHTML = "please select proper date format";
+
+			} else if (year != "year") {
+				document.getElementById("error11").style.display = "block";
+				errorNode11.innerHTML = "please select proper date format";
+
+			} else {
+				document.getElementById("error11").style.display = "none";
+				errorNode11.innerHTML = "";
+			}
+		};
+		function calculateAge() {
+
+			let day = document.getElementById("day").value;
+			let month = document.getElementById("month").value;
+			let year = document.getElementById("year").value;
+			if (month == "4") {
+				document.getElementById("day29").style.display = "block";
+				document.getElementById("day30").style.display = "block";
+
+				document.getElementById("day31").style.display = "none";
+			};
+			if (month == "6") {
+				document.getElementById("day29").style.display = "block";
+				document.getElementById("day30").style.display = "block";
+
+				document.getElementById("day31").style.display = "none";
+			};
+			if (month == "9") {
+				document.getElementById("day29").style.display = "block";
+				document.getElementById("day30").style.display = "block";
+
+				document.getElementById("day31").style.display = "none";
+			};
+			if (month == "11") {
+				document.getElementById("day29").style.display = "block";
+				document.getElementById("day30").style.display = "block";
+				document.getElementById("day31").style.display = "none";
+			};
+
+			if (month == "2" && (year % 4 == 0)) {
+				document.getElementById("day29").style.display = "block";
+				document.getElementById("day30").style.display = "none";
+				document.getElementById("day31").style.display = "none";
+			} else if (month == "2" && (!(year % 4) == 0)) {
+				document.getElementById("day29").style.display = "none";
+				document.getElementById("day30").style.display = "none";
+				document.getElementById("day31").style.display = "none";
+			}
+			else if (month == "1" || month == "3" || month == "5" || month == "7" || month == "8") {
+				document.getElementById("day29").style.display = "block";
+				document.getElementById("day30").style.display = "block";
+				document.getElementById("day31").style.display = "block";
+			};
+			if (day != "day" && month != "month" && year != "year") {
+				var stringDate = month + "/" + day + "/" + year
+				var timestamp = Date.parse(stringDate);
+				var dateObject = new Date(timestamp);
+				var currentYear = new Date().getFullYear();
+				var birthYear = dateObject.getFullYear();
+				var age = currentYear - birthYear;
+				var today = new Date();
+				var birthDate = new Date(stringDate);
+				var m = today.getMonth() - birthDate.getMonth();
+				if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+					age = age - 1;
+					m = 12 + m
+				}
+				var age = String(age) + String("." + m);
+				age = age + " years"
+				document.getElementById("txt-age").value = age;
+			}
+		};
+
+		// FOR CLICK
+		function Click() {
+			
+
+			let f1 = validateFirstname();
+			let f2 = validateSecondname();
+			let f3 = validatePhone();
+			let f4 = validateOffice();
+			let f5 = validateEmail();
+			let f6 = validatePass();
+			let f7 = validateConfirm();
+			let f8 = validateGender();
+			let f9 = validateInterest();
+			let f10 = validateAbout();
+			let f11 = ageCheck();
+			let f12 = calculateAge();
+
+			return (console.log(f1 && f2 && f3 && f4 && f5 && f6 && f7 && f8 && f9 && f10 && f11 && f12));
+		}
+
+	</script>
+</body>
+
+</html>

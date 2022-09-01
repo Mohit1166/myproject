@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital partners</title>
+    <style>
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+
+        }
+
+        #Company_name {
+            position: relative;
+            left: 200px;
+            top: 20px;
+            height: 65px;
+        }
+
+        #Title {
+            /* border: 2px solid black; */
+            height: 100px;
+            width: 1280px;
+            position: relative;
+        }
+
+        #Call_us {
+            position: relative;
+            left: 350px;
+            bottom: 10px;
+
+        }
+
+        #Title_search {
+            position: relative;
+            left: 360px;
+            bottom: 10px;
+        }
+
+
+
+        .nav_bar {
+            position: relative;
+            left: 550px;
+            padding: 10px;
+        }
+
+        #Further_details {
+            position: relative;
+            right: 10px;
+            top: 20px;
+        }
+
+        #Further_details_intro {
+            position: relative;
+            top: 29px;
+
+        }
+
+        #Further_details_button {
+            position: relative;
+            left: 350px;
+            bottom: 50px;
+            width: 150px;
+            height: 40px;
+            background-color: grey;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .Vital_First_Background {
+
+            width: 1300px;
+            height: 380px;
+            position: relative;
+            right: 5px;
+
+            opacity: 0.9;
+            /* border: 2px solid black; */
+        }
+
+        #Vital_Play {
+            height: 80px;
+            width: 80px;
+            background-color: lawngreen;
+            opacity: 0.60;
+            position: relative;
+            bottom: 300px;
+            left: 180px;
+        }
+
+        #Vital_Play_Button {
+            position: relative;
+            bottom: 330px;
+            left: 125px;
+            font-size: 25px;
+            color: beige;
+            opacity: 0.90;
+        }
+
+        .Vital_Intro {
+            position: relative;
+            bottom: 400px;
+            left: 500px;
+            font-size: 25px;
+        }
+
+        #Vital_About_Us {
+            width: 1280px;
+            height: 570px;
+        }
+
+        #About_us {
+            position: relative;
+            margin-left: 220px;
+            bottom: 300px;
+            font-size: 46px;
+        }
+
+        #About_us_intro {
+            position: relative;
+            margin-left: 220px;
+            bottom: 310px;
+            color: grey;
+        }
+
+        .About_us_Body {
+            position: relative;
+            margin-left: 220px;
+            bottom: 310px;
+
+        }
+
+        #About_us_Button {
+            width: 200px;
+            height: 50px;
+            background-color: greenyellow;
+            color: white;
+            border: 1px solid greenyellow;
+        }
+
+        #small_girl {
+            position: relative;
+            top: 150px;
+        }
+
+        #Vital_Works {
+            position: relative;
+
+            right: 5px;
+        }
+
+        #How_vital_works {
+            position: relative;
+            right: 2px;
+            bottom: 160px;
+
+
+        }
+
+        .Vital_works_title {
+            position: relative;
+            text-align: center;
+            top: 30px;
+            font-size: 50px;
+        }
+
+        #Step_happiness {
+            position: relative;
+            text-align: center;
+            top: 30px;
+            font-size: 29px;
+        }
+
+        #Overview_img {
+            position: relative;
+            right: 9px;
+            top: 10px;
+            opacity: 0.70;
+
+        }
+
+        .For_clients {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            bottom: 400px;
+        }
+
+        .Our_steps {
+            position: relative;
+            bottom: 380px;
+            left: 320px;
+            margin: 25px;
+            font-size: 20px;
+        }
+
+        #dotted_1 {
+            position: relative;
+            bottom: 458px;
+            text-align: center;
+        }
+
+        #dotted_2 {
+            position: relative;
+            bottom: 490px;
+            left: 107px;
+            text-align: center;
+        }
+
+        #dotted_3 {
+            position: relative;
+            bottom: 523px;
+            left: 207px;
+            text-align: center;
+        }
+
+        #dotted_4 {
+            position: relative;
+            bottom: 560px;
+            left: 395px;
+        }
+
+        #dotted_5 {
+            position: relative;
+            bottom: 595px;
+            left: 500px;
+        }
+
+        .Our_info {
+            position: relative;
+            bottom: 670px;
+            left: 330px;
+            margin: 30px;
+        }
+
+        #Meet_us {
+            position: relative;
+            bottom: 520px;
+            right: 100px;
+        }
+
+        #view_img {
+            position: relative;
+            bottom: 440px;
+            /* opacity: 0.80; */
+            right: 15px;
+            height: 550px;
+        }
+
+        #txt_viewimg {
+            position: relative;
+            bottom: 1000px;
+            text-align: center;
+            font-size: 21px;
+        }
+
+        #template_1 {
+            position: relative;
+            bottom: 1000px;
+            left: 200px;
+            background-color: white;
+            padding: 15px;
+            opacity: 0.70;
+
+        }
+
+        #Content_template1 {
+            position: relative;
+            left: 120px;
+            font-size: 19px;
+
+        }
+
+        #title_template1 {
+            position: relative;
+            left: 70px;
+        }
+
+        #template_2 {
+            position: relative;
+            bottom: 1430px;
+            left: 640px;
+            background-color: white;
+            opacity: 0.70;
+            padding: 15px;
+
+        }
+
+        #Content_template2 {
+            position: relative;
+            left: 120px;
+            font-size: 19px;
+        }
+
+        #feedback_vital {
+            position: relative;
+            bottom: 1420px;
+            right: 10px;
+            height: 530px;
+            opacity: 0.70;
+        }
+
+        #feedback_photo {
+            position: relative;
+            border-radius: 100px;
+            height: 120px;
+            width: 120px;
+            position: relative;
+            bottom: 1860px;
+            left: 550px;
+            border: 5px solid greenyellow;
+        }
+
+        #client_title {
+            text-align: center;
+            position: relative;
+            bottom: 2100px;
+        }
+
+        #right_arrow {
+
+            position: relative;
+            bottom: 1950px;
+            left: 1000px;
+        }
+
+        #left_arrow {
+            position: relative;
+            bottom: 1950px;
+            left: 200px;
+        }
+
+        #client_text {
+            position: relative;
+            text-align: center;
+            bottom: 1930px;
+            font-size: 21px;
+        }
+
+        #client_customer {
+            position: relative;
+            left: 500px;
+            bottom: 1900px;
+            font-size: 25px;
+
+        }
+
+        #blog {
+            text-align: center;
+            position: relative;
+            bottom: 1800px;
+        }
+
+        #blog_img1 {
+            position: relative;
+            bottom: 1780px;
+            width: 270px;
+            left: 200px;
+        }
+
+        #blog_post1 {
+            position: relative;
+            bottom: 1770px;
+            left: 200px;
+        }
+
+        #blog_button1 {
+            background-color: white;
+            border: 2px solid greenyellow;
+            color: greenyellow;
+            padding: 5px;
+            width: 120px;
+
+        }
+
+        #blog_img2 {
+            position: relative;
+            bottom: 2160px;
+            width: 280px;
+            left: 550px;
+        }
+
+        #blog_post2 {
+            position: relative;
+            left: 550px;
+            bottom: 2150px;
+        }
+
+        #blog_button2 {
+            background-color: greenyellow;
+            border: 2px solid greenyellow;
+            color: white;
+            padding: 5px;
+            width: 120px;
+        }
+
+        #blog_img3 {
+            position: relative;
+            bottom: 2540px;
+            width: 280px;
+            left: 900px;
+        }
+
+        #blog_post3 {
+            position: relative;
+            left: 900px;
+            bottom: 2530px;
+        }
+
+        #blog_button3 {
+            background-color: white;
+            border: 2px solid greenyellow;
+            color: greenyellow;
+            padding: 5px;
+            width: 120px;
+        }
+
+        #Further_detail {
+            position: relative;
+            bottom: 2500px;
+            right: 10px;
+        }
+
+        #ending_info {
+            position: relative;
+            width: 1300px;
+            height: 600px;
+            /* border: 2px solid black; */
+            bottom: 2500px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.705)
+        }
+
+        #ending_info_title {
+            position: relative;
+            left: 200px;
+            top: 100px;
+        }
+
+        #ending_contact {
+            position: relative;
+            top: 100px;
+            left: 200px;
+            font-size: 32px;
+
+        }
+
+        #End_motto {
+            position: relative;
+            left: 640px;
+            bottom: 70px;
+        }
+
+        #Appointment_button {
+            position: relative;
+            width: 210px;
+            height: 60px;
+            border-radius: 5px;
+            left: 650px;
+            bottom: 100px;
+        }
+
+        #Consultant_button {
+            position: relative;
+            width: 210px;
+            height: 60px;
+            border-radius: 5px;
+            left: 680px;
+            bottom: 100px;
+        }
+
+        #Locate_us {
+            position: relative;
+            left: 200px;
+        }
+
+        #Recent_Post {
+            position: relative;
+            left: 500px;
+            bottom: 180px;
+        }
+
+        #Recent_Tweets {
+            position: relative;
+            left: 820px;
+            bottom: 380px;
+        }
+
+        #twitter_logo_1 {
+            position: relative;
+            right: 30px;
+            bottom: 120px;
+        }
+
+        #twitter_logo_2 {
+            position: relative;
+            right: 60px;
+            bottom: 60px;
+        }
+
+        #Find_us {
+            position: relative;
+            width: 1300px;
+            height: 50px;
+            border: 2px solid black;
+            bottom: 2500px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.863);
+        }
+
+        #Our_website {
+            position: relative;
+            left: 250px;
+            padding: 14px;
+        }
+
+        #Our_contacts {
+            position: relative;
+            bottom: 30px;
+        }
+
+        #Social_media {
+            position: relative;
+            bottom: 45px;
+            right: 350px;
+        }
+
+        .logo {
+            position: relative;
+            left: 960px;
+            bottom: 65px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Title">
+        <img src="/images/Vital.png" alt="..." id="Company_name">
+        <span id="Call_us" style="color:darkslategray ; font-size: large;"><b><i>Call Us Today!(02) 9017
+                    8413</i></b></span>
+        <input type="text" id="Title_search" style="height: 20px;" "width: 180px;">
+        <nav>
+            <a href="#home" style="color: greenyellow ;" class="nav_bar">Home</a>
+            <a href="#Dating" style="color:darkslategrey ;" class="nav_bar">Dating Blog</a>
+            <a href="#help" style="color:darkslategrey ;" class="nav_bar">Who We Help</a>
+            <a href="#Vital" style="color:darkslategrey ;" class="nav_bar">Why Vital</a>
+            <a href="#Reviews" style="color:darkslategrey ;" class="nav_bar">Reviews</a>
+            <a href="#Contact" style="color:darkslategrey ;" class="nav_bar">Contact Us</a>
+        </nav>
+    </div>
+    <div id="Further_details"
+        style="width: 1289px; height: 100px; text-align: center;background-color:rgba(128, 128, 128, 0.63); color: white;">
+        <span id="Further_details_intro">
+            <h2><i>Lorem, ipsum dolor sit amet consectetur adipisicing.</i></h2>
+            <button id="Further_details_button">Download Now</button>
+        </span>
+    </div><br>
+
+    <div class=Vital_First_Background>
+        <img src="/images/Background1.jpeg" alt=".." class="Vital_First_Background">
+        <span><button id="Vital_Play"></button></span>
+        <span id="Vital_Play_Button">▸</span><br>
+
+        <span class="Vital_Intro">Lorem ipsum dolor sit Lorem, ipsum dolor.<br></span>
+        <span class="Vital_Intro">amet consectetur adipisicing Lorem, ipsum dolor.<br></span>
+        <span class="Vital_Intro">elit. Labore, facere. Lorem, ipsum dolor.</span><br><br>
+        <button class="Vital_Intro"
+            style="padding: 15px; margin-left: 120px; background-color: greenyellow;color: white; opacity: 0.80;">Contact
+            Us Now!</button>
+    </div>
+    <div id="Vital_About_Us">
+        <img id="small_girl" src="/images/girl.png" alt="" style="margin-left: 750px; border: 5px solid grey;">
+        <h1 id="About_us"><i>About Us </i></h1>
+        <h2 id="About_us_intro">It is a long established fact that a <br>
+            reader will be distracted.</h2>
+
+        <p class="About_us_Body"><b> The point of using Lorem ipsum is </b>it has a more-or-less normal <br> button of
+            letters, as
+            opposed to using 'Content here, content here', making <br>look like readable English.<br>
+        </p>
+        <p class="About_us_Body"> <b>There are many variations of</b> passages of lorem ipsum available, but the <br>
+            majority
+            have suffered altereation in some form.
+        </p>
+        <p class="About_us_Body">
+            <span style="color :greenyellow;"><b>&#10003;</b></span><b>2000 years old. Richard McClint</b><br>
+            <br>
+            <span style="color:greenyellow;"><b>&#10003;</b></span><b>Discovered the undoubtable source</b><br>
+            <br>
+            <span style="color: greenyellow;"><b>&#10003;</b></span><b>Lorem ipsum dolor sit amet.</b><br>
+            <br>
+            remaining essentially unchanged.It was popularised in 1960s with <br> the release Letraset sheets
+            containing.<br><br>
+
+            <button id="About_us_Button">Connect Us Now!</button>
+
+        </p>
+    </div>
+
+
+    <div>
+        <img src=" /images/background4.jpeg" alt="..." id="Overview_img">
+        <span class="For_clients" style="font-size: 50px;">How Vital Works</span>
+        <h4 class="For_clients" style="font-size: 25px;">
+            <i>Step,Hop Or Skip Your Way To Happiness</i>
+        </h4>
+        <button class="Our_steps"
+            style=" border: 4px solid greenyellow;height: 50px; width: 50px;border-radius: 60px;">1</button>
+        <button class="Our_steps"
+            style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">2</button>
+        <button class="Our_steps"
+            style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">3</button>
+        <button class="Our_steps"
+            style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">4</button>
+        <button class="Our_steps"
+            style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">5</button>
+        <button class="Our_steps"
+            style="border: 4px solid greenyellow;height: 50px;width:50px;border-radius: 60px;">6</button>
+
+        <p id="dotted_1"><b>-----------</p>
+        <p id="dotted_2">-----------</p>
+        <p id="dotted_3">-----------</p>
+        <p id="dotted_4">-----------</p>
+        <p id="dotted_5">-----------</p></b>
+
+        <span class="Our_info">STEP</span>
+        <span class="Our_info">STEP</span>
+        <span class="Our_info">STEP</span>
+        <span class="Our_info">HOP</span>
+        <span class="Our_info">HOP</span>
+        <span class="Our_info">SKIP</span>
+
+        <span id="Meet_us"
+            style="border: 2px solid green;width: 150px; padding: 10px; background: white; color: gray; ">Pop
+            into our office and meet us face to face.. </span>
+    </div>
+
+    <div>
+        <img src="/images/view.jpeg" alt=".." id="view_img">
+        <p id="txt_viewimg"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestias expedita
+                totam eius <br>provident sit
+                voluptatibus repudiandae magnam odit error!<br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, repellat!</p></b>
+
+        <div style="height: 400px;width: 350px;" id="template_1">
+            <img src="/images/Female.png" alt=".." id="Content_template1"><br>
+
+            <h3 id="title_template1"><b>What is Lorem ipsum?</b></h3> <br>
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Non minus a dicta
+            ullam
+            labore
+            consequuntur, quam tempora officiis magni sed incidunt? Doloribus fugit modi laboriosam
+            voluptate at
+            corrupti. Vitae vero eum voluptatem quaerat expedita quod sunt dolorum labore voluptatum
+            corrupti .<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi repudiandae
+            dignissimos ducimus, alias eaque soluta doloribus ut perferendis aliquam.<br>
+            <button style=" width: 150px; background-color: greenyellow; margin-left: 100px; padding: 12px;">Get
+                Started</button>
+        </div>
+
+        <div style="height: 400px;width: 350px;" id="template_2">
+            <img src="/images/male.png" alt="..." id="Content_template2"><br>
+
+            <h3 id="title_template2" style="text-align:center;"><b>What is Lorem ipsum?</b></h3> <br>
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Non minus a dicta
+            ullam
+            labore
+            consequuntur, quam tempora officiis magni sed incidunt? Doloribus fugit modi laboriosam
+            voluptate at
+            corrupti. Vitae vero eum voluptatem quaerat expedita quod sunt dolorum labore voluptatum
+            corrupti .<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi repudiandae
+            dignissimos ducimus, alias eaque soluta doloribus ut perferendis aliquam.<br>
+            <button style=" width: 150px; background-color: greenyellow; margin-left: 100px; padding: 12px;">Get
+                Started</button>
+        </div>
+    </div>
+
+    <div>
+        <img src="/images/view1.jpeg" alt=".." id="feedback_vital">
+        <img src="/images/girl.png" alt=".." id="feedback_photo">
+        <h1 style="font-size: 44px;" id="client_title"><i>What Our Clients Says?</i></h1>
+        <img src="/images/next_btn.png" alt=".." id="right_arrow">
+        <img src="/images/prev_btn.png" alt=".." id="left_arrow">
+
+        <p id="client_text"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet.
+                <br>Ipsum perspiciatis quos illum
+                adipisci reprehenderit distinctio excepturi dolorum fuga. <br>
+                Inventore, maiores Lorem ipsum dolor sit amet.</p></b>
+        <span id="client_customer"><b>-MT.Chatwood</b></span </div>
+
+    </div>
+
+    <div>
+        <h1 style="font-size: 40px;" id="blog">Our Latest Blog Posts</h1>
+        <div>
+            <img src="/images/user1.png" alt=".." id="blog_img1">
+            <p id="blog_post1">
+                <b>What is Lorem ipsum?</b> <br><br>Lorem ipsum dolor sit amet consectetur <br>Non minus a
+                dicta
+                ullam
+                labore
+                consequ,<br>tempora officiis magni sed incidunt? Dolo <br>laboriosam voluptate at
+                corrupti. Vitae <br>voluptatem quaerat expedita quod .<br><br>
+                <button id="blog_button1">Read More</button>
+            </p>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="/images/user2.png" alt=".." id="blog_img2">
+            <p id="blog_post2">
+                <b style="color: greenyellow;">What is Lorem ipsum Lorem, ipsum ?</b> <br><br>Lorem ipsum dolor sit amet
+                consectetur <br>Non minus a
+                dicta
+                ullam
+                labore
+                consequ,<br>tempora officiis magni sed incidunt? Dolo <br>laboriosam voluptate at
+                corrupti. Vitae <br>voluptatem quaerat expedita quod .<br><br>
+                <button id="blog_button2">Read More</button>
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <img src="/images/user3.png" alt=".." id="blog_img3">
+            <p id="blog_post3">
+                <b>What is Lorem ipsum?</b> <br><br>Lorem ipsum dolor sit amet consectetur <br>Non minus a
+                dicta
+                ullam
+                labore
+                consequ,<br>tempora officiis magni sed incidunt? Dolo <br>laboriosam voluptate at
+                corrupti. Vitae <br>voluptatem quaerat expedita quod .<br><br>
+                <button id="blog_button3">Read More</button>
+            </p>
+        </div>
+    </div>
+    <div id="Further_detail"
+        style="width: 1289px; height: 100px; text-align: center;background-color:rgba(128, 128, 128, 0.63); color: white;">
+        <span id="Further_details_intro">
+            <h2><i>Lorem, ipsum dolor sit amet consectetur adipisicing.</i></h2>
+            <button id="Further_details_button">Download Now</button>
+        </span>
+    </div>
+    <div id="ending_info">
+        <img src="/images/Vital.png" alt=".." id="ending_info_title">
+        <h3 style="color:gainsboro ;" id="ending_contact"><i> Call Us Today! (02) 9017 8413</i></h3>
+        <h6 id="End_motto" style="font-size:20px; color:gainsboro">Shortcut your search to happiness right
+            now.<br>
+
+            Live a life without regrets and take actions today !</h6>
+        <button style="background-color:greenyellow;color: white;" id="Appointment_button">Book an
+            Appointment</button>
+        <button style="background-color:greenyellow;color: white;" id="Consultant_button">Contact a
+            Consultant</button>
+
+        <p style="color: gainsboro;font-size: 14px" id="Locate_us">
+
+            <b>CONTACT INFO</b><br>
+            <br>
+
+            4/220 George St, Sydney NSW 2000<br>
+
+            Phone: (02) 9017 8413<br>
+
+            Email: info@syd.vitalpartners.com.au<br>
+            <br><br>
+
+
+            Canberra City ACT 2600<br>
+
+            Phone: (02) 9017 8426<br>
+
+            Email: can@syd vitalpartners.com.au
+        </p>
+        <p style="color: gainsboro; font-size: 14px;" id="Recent_Post">
+
+            <b>Recent Post</b><br>
+            <br>
+            How to Recover After a Bad Date<br>
+            <br>
+
+            ▸Review | Vital Partners Review<br>
+            <br>
+
+            ▸ Review | Vital Partners Review<br>
+            <br>
+
+            ▸ Review | Vital Partners Derek and Julie<br>
+            <br>
+
+            ▸7 Rules for a Happy Relationship | Vital<br> Partners Dating Sydney
+            <br>
+
+        </p>
+        <p style="color: gainsboro ;font-size: 14px;" id="Recent_Tweets">
+
+            <b>Recent Tweets</b><br>
+            <br>
+            Are you being vulnerable to find love? via offline <br>dating agency Sydney Canberra Vital
+            Partners<br>
+            <br><br>
+            Ending a relationship? Read why you shouldn't<br> break up by text-offine dating agency Vital
+            <br>Partners Sydney Canberra<br>
+            <img src="/images/twitter.png" alt=".." id="twitter_logo_1">
+            <img src="/images/twitter.png" alt=".." id="twitter_logo_2">
+
+        </p>
+    </div>
+    <div id="Find_us">
+        <span style="color: gainsboro;display: flex; justify-content: left; font-size: 14px;"
+            id="Our_website">VitalPartners.com.au</span>
+        <span style="color: gainsboro; display: flex;justify-content: center;font-size: 14px;"
+            id="Our_contacts">Contact| Terms of Use |
+            Privacy policy | Disclaimer</span>
+        <span style="color: gainsboro;display: flex;justify-content: right;font-size: 14px;" id="Social_media">Follow
+            us:</span>
+        <img src="/images/facebook.png" alt="..." class="logo">
+        <img src="/images/linkedin.png" alt=".." class="logo">
+        <img src="/images/youtube.png" alt=".." class="logo">
+        <img src="/images/twitter1.png" alt="..." class="logo">
+
+    </div>
+
+</body>
+
+</html>
